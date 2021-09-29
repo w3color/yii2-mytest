@@ -1,0 +1,27 @@
+{
+    "name": "w3color/yii2-mytest",
+    "description": "Описание тестового расширения",
+    "type": "yii2-extension",
+    "keywords": ["yii2","test"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "w3color Studio",
+            "email": "yevhen.webdev@gmail.com",
+            "homepage": "https://github.com/w3color/yii2-mytest",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "extra": {
+        "bootstrap": "w3color\\mytest\\Bootstrap"
+    },
+    "autoload": {
+        "psr-4": {
+            "w3color\\mytest\\": "src"
+        }
+    }
+}
