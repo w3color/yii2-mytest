@@ -25,7 +25,7 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
-
-```php
-<?= \w3color\mytest\AutoloadExample::widget(); ?>```
+* Выполнить миграцию для создания нужной таблицы в базе данных (консоль):
+```
+yii migrate --migrationPath=@w3color/mytest/migrations --interactive=0
+```
