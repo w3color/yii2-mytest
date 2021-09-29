@@ -25,7 +25,12 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-* Выполнить миграцию для создания нужной таблицы в базе данных (консоль):
+Выполнить миграцию для создания нужной таблицы в базе данных (консоль):
 ```
 yii migrate --migrationPath=@w3color/mytest/migrations --interactive=0
+```
+
+Просмотр
+-----
+index.php?r=mytest/test/index
 ```
