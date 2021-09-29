@@ -22,13 +22,15 @@ or add
 to the require section of your `composer.json` file.
 
 
-Usage
+Миграция
 -----
 
 Выполнить миграцию для создания нужной таблицы в базе данных (консоль):
 ```
 yii migrate --migrationPath=@w3color/mytest/migrations --interactive=0
 ```
+Добавить тестовые денные
+
 
 Просмотр
 -----
