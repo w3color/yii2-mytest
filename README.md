@@ -32,5 +32,8 @@ yii migrate --migrationPath=@w3color/mytest/migrations --interactive=0
 
 Просмотр
 -----
+
+Перейти на страницу:
+```
 index.php?r=mytest/test/index
 ```
